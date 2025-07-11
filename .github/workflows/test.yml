@@ -1,10 +1,12 @@
 name: Testing taskiq-redis
 
-on:
-  push:
-    branches:
-      - main
-      - develop
+on: workflow_dispatch
+
+# on:
+#   push:
+#     branches:
+#       - main
+#       - develop
 #  pull_request:
 
 jobs:
